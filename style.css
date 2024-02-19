@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(246, 240, 240);
+}
+a {
+  text-decoration: none;
+}
+.header {
+  height: 80px;
+  background-color: white;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+}
+.logo-section {
+  width: 60%;
+  display: flex;
+}
+.logo-section img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+  border-radius: 8px;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff006f;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 10px 10px 10px 0px;
+  position: absolute;
+  top: 20px;
+  left: 170px;
+}
+.button-section {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.button-section button {
+  margin-left: 30px;
+  width: 80px;
+  height: 38px;
+}
+.login-button {
+  /* Your existing styles */
+  font-size: medium;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  border-width: 1px;
+  border-color: #ff006f;
+  color: #ff006f;
+  border-style: solid;
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 111, 0.5); /* Add box-shadow to create the expansion effect */
+}
+.signup-button {
+  background-color: #ff006f;
+}
+.signup-button:hover {
+  border-width: 1px;
+  border-color: #ff006f;
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 111, 0.5);
+}
+.bi-globe {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.language-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+.dropdown button {
+  border: none;
+  margin-bottom: 5px;
+}
