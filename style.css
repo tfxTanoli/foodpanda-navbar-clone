@@ -74,7 +74,33 @@ span {
   justify-content: space-evenly;
   margin-left: 20px;
 }
-.dropdown button {
+.language-section .btn {
+  color: black;
+  width: 115px;
+  background: none;
   border: none;
-  margin-bottom: 5px;
+  height: 50px;
+  padding-bottom: 5px;
+}
+.language-section .bi {
+  margin-right: 5px;
+}
+.language-section .btn:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 111, 0.5);
+}
+.cart-section {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  background: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-section:hover {
+  background-color: #f7f4f4;
+  box-shadow: 0px 0px 10px 2px rgba(255, 0, 111, 0.5);
 }
